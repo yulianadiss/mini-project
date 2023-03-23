@@ -37,7 +37,7 @@ function showResult(bmi){
     var bmiStatus;
     var bmiHasil;
     if (bmi < 18.5) {
-        bmiHasil = 'Berat badan lebih'
+        bmiHasil = 'Berat badan kurang'
         bmiStatus = 'kekurangan berat badan';
       } else if (bmi < 25) {
         bmiHasil = 'Berat badan normal'
